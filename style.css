@@ -1,0 +1,83 @@
+body {
+    color: #C68D79;
+    background: #14433C;
+}
+
+
+header {
+    background: #14433C;
+    padding: 20px 0;
+    border-bottom: 2px solid;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;   
+    margin: 0 auto;
+}
+
+.caixa img {
+    width: 18%
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0; 
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #C68D79;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;     
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.descricao {
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 3rem 2rem;
+    font-size: 20px;
+}
+
+.sobreoquintal {
+    padding-bottom: 1rem;
+}
+
+.funcionamento {
+    padding-bottom: 1rem;
+}
+
+.chefs {
+    text-align: center;
+    border: 2px solid black;
+    padding: 2rem;
+    width: 30%;
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 14px;
+}
+
+.chefs img {
+    width: 40%;
+}
+
+
+footer {
+    background-color: #F9F9F9;
+    font-size: 14px;
+    padding: 40px 0;
+    text-align: center;
+}
