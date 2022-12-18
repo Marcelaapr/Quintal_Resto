@@ -7,7 +7,7 @@ body {
 header {
     background: #14433C;
     padding: 20px 0;
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
 }
 
 .caixa {
@@ -43,6 +43,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
+#imagem_fachada {
+    width: 100%;
+}
+
 .descricao {
     text-align: center;
     width: 50%;
@@ -60,6 +64,10 @@ nav a:hover {
     padding-bottom: 1rem;
 }
 
+.mapa iframe {
+    border-radius: 5px;
+}
+
 .chefs {
     text-align: center;
     border: 2px solid black;
@@ -74,10 +82,13 @@ nav a:hover {
     width: 40%;
 }
 
-
 footer {
-    background-color: #F9F9F9;
-    font-size: 14px;
+    border-top: 1px solid #C68D79;
+    font-size: 16px;
     padding: 40px 0;
     text-align: center;
+}
+
+footer img {
+    width: 6%;
 }
