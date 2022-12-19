@@ -8,7 +8,7 @@ function getMenuItens() {
       .then(json => {
         const item = json.meals
         item.forEach(data => {
-          //console.log(data)
+          console.log(data)
           document.querySelector('.container').innerHTML +=  `
           <img src="${data.strMealThumb}" />
           `
@@ -19,3 +19,4 @@ function getMenuItens() {
   }
   
   getMenuItens()
+
