@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #C78C19;
+    color: #fa7747;
     text-decoration: underline;
 }
 
@@ -65,7 +65,7 @@ nav a:hover {
 }
 
 .mapa iframe {
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .chefs {
