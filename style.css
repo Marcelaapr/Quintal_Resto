@@ -17,17 +17,18 @@ header {
 }
 
 .caixa img {
-    width: 18%
+    width: 18%;
 }
 
 nav {
     position: absolute;
-    top: 110px;
+    top: 70px;
     right: 0; 
 }
 nav li {
     display: inline;
     margin: 0 0 0 15px;    
+    
 }
 
 nav a {
@@ -112,7 +113,7 @@ footer img {
 /*página contato*/
 
 main {
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -130,7 +131,7 @@ form label, form legend {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 40%;
 }
 
 .checkbox {
@@ -160,7 +161,7 @@ table {
 }
 
 thead {
-    background: #555555;
+    background: #918989;
     color: white;
     font-weight: bold;
 }
